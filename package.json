@@ -1,0 +1,30 @@
+{
+  "name": "youth-alive-vueapp",
+  "version": "1.0.0",
+  "author": "Confidence Yobo",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "node server.js",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "serve-static": "^1.14.1",
+    "vue": "^2.6.10",
+    "register-service-worker": "^1.6.2",
+    "vue-canvasvideo": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-pwa": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
+    "sass": "^1.23.3",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "engines": {
+    "node": "12.19.0"
+  }
+}
